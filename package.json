@@ -1,0 +1,31 @@
+{
+  "name": "@ali/vs-server",
+  "author": "fanjiapeng",
+  "version": "1.0.0",
+  "description": "Server Setter for VisualEngine",
+  "main": "build/index.js",
+  "README": "README.md",
+  "scripts": {
+    "start": "vdev start --setter",
+    "build": "vdev build"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:vision-utils/vs-server.git"
+  },
+  "dependencies": {
+    "@ali/ve-less-variables": "^1.0.0",
+    "@ali/ve-text-control": "^1.0.0",
+    "@ali/ve-icons": "^1.1.0",
+    "@ali/ve-popups": "^2.0.3",
+    "@ali/ve-stage-box": "^1.0.3",
+    "classnames": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0"
+  },
+  "license": "MIT"
+}

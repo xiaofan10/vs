@@ -1,0 +1,131 @@
+@import "~@ali/ve-less-variables/index.less";
+
+// .vs-server {
+//     width: 100%;
+//     box-sizing: border-box;
+//     background: transparent;
+//     min-height: 26px;
+//     border: none;
+ 
+    
+    
+//     .vs-server-wrap {
+//       box-sizing: border-box;
+//       width: 100%;
+
+//       .wrap-right {
+//           display: inline-block;
+//           width: 100%;
+//       }
+//       .vs-server-button {
+//         display: block;
+//         width: 60%;
+//         height: 32px;
+//         margin: 8px auto;
+//         padding: 0 15px;
+//         border: 1px solid @button-blue-color;
+//         border-radius: 3px;
+//         background-color: transparent;
+//         color: @text-color;
+//         font-size: 14px;
+//         line-height: 30px;
+//         outline: 0;
+//         &:hover {
+//           background-color: @button-blue-hover-color;
+//           border-color: @button-blue-hover-color;
+//         }
+//       }
+      
+//     }
+// }
+
+// .vs-server-content {
+//     position: relative;
+//     box-sizing: border-box;
+//     height: 520px;
+//     border: 1px solid #000;
+
+//     .vs-server-content-right {
+//         float: right;
+//         width: 50%;
+//         height:100%;
+//     }
+//     .vs-server-content-left {
+//         float: left;
+//         width:50%;
+//         height:100%;
+//         border-right: 1px solid #000;
+//     }
+// }
+
+.vs-action-check {
+    svg > path:first-child {
+      fill: #92ff41;
+      opacity: 0.15;
+    }
+    &:hover {
+      svg > path:first-child {
+        opacity: 0.35;
+      }
+    }
+    &.vs-checked {
+      svg > path:first-child {
+        opacity: 1;
+      }
+    }
+  }
+// setter wrapper
+.vs-branch-wrap {
+    padding: 10px 10px 0 10px;
+
+    .list-wrap {
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        padding: 0 10px 0 0px;
+        border: 1px solid #999;
+        border-radius: 5px;
+        overflow: hidden;
+
+        .list-wrap-left {
+            position:relative;
+            float: left;
+            padding-left: 21px;
+            height: 30px;
+
+            .list-wrap-left-text {
+                padding-left: 21px;
+                height:30px;
+                line-height: 30px;
+                font-size: 16px;
+            }
+
+            .list-bg-icon {
+                position: absolute;
+                top: 8px;
+                left: 0px;
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+
+                svg{
+                    transform: rotate(270deg);
+                }
+            }
+        }
+
+        .list-wrap-right {
+            position: relative;
+            float: right;
+            height: 16px;
+            width: 16px;
+        }
+
+        .list-wrap-icon {
+            position: absolute;
+            top: 8px;
+        }
+    }
+}
+
+
+
